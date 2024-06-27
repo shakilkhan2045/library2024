@@ -1,0 +1,244 @@
+/*
+Reset Stylesheet
+v1.6.1
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*-------------------------------------------------------Main code start from here--------------------------------------------
+ --------------------------------------------------------Main code start from here--------------------------------------------
+ --------------------------------------------------------Main code start from here--------------------------------------------
+ --------------------------------------------------------Main code start from here-------------------------------------------
+ --------------------------------------------------------Main code start from here--------------------------------------------*
+ --------------------------------------------------------Main code start from here--------------------------------------------*
+ --------------------------------------------------------Main code start from here--------------------------------------------*
+ --------------------------------------------------------Main code start from here--------------------------------------------*/
+
+
+
+header
+{
+    height: 150px;
+    width : 1525px;
+    background-color:#395abe;
+    padding-bottom: 10px;
+
+}
+
+.navbar-inverse
+{
+ color: aliceblue;
+
+}
+
+section
+{   
+    height: 600px;
+    width : 1525px;
+    background-color:white;
+}
+
+footer
+{
+    height: 100px;
+    width : 1525px;
+    font-size: medium;
+    font-style: oblique;
+    font-family: system-ui;
+    background-color:rgb(55, 90, 190);
+    color: whitesmoke;
+    text-align: center;
+ }
+
+/*-----------------header image/logo adjustment-------------------*/
+.logo 
+{
+float: right;
+padding-right:30px;
+
+} 
+/*---------------header text adjustment/style ------------------*/ 
+
+
+ .navbar-inverse {
+    background-color: #3959bd;
+    border-color: #000;
+ }
+
+
+ 
+section 
+{
+background-image: url("images/bgi.jpg");
+background-size: 1525px;
+
+}
+
+
+.box
+{   
+    height: 100px;
+    width: 1525px;
+    background-color:rgba(23, 25, 23, 0.927) ;
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+
+
+/*
+------------------ new page = userlogin -------------------------------------
+-------------------new page = userlogin --------------------------------------*/
+
+
+.button{
+ 
+ color: rgb(77, 189, 3);
+ position: absolute
+}
+
+
+.box2
+{
+color:white;
+margin:auto;
+background-image: linear-gradient(to right, rgba(22, 22, 22, 0.823), rgba(15, 98, 17, 0.599) ,rgba(13, 13, 15, 0.758));
+
+height:300px;
+width:400px;
+
+}
+.login 
+{
+margin-left:90px;
+height:200px;
+width:200px;
+text-align:center;
+font-size: large;
+
+}
+
+
+.form
+{
+    margin: auto;
+    height: 260px;
+    width: 200px;
+font-size: larger;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 2px #666;
+  transform: translateY(1px);
+}
+
+/* book page  */
+
+
+
+
+
+
+
